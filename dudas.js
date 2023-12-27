@@ -12,6 +12,11 @@ DEPENDENCIAS ELIMINADAS
   "vuetify-google-autocomplete": "^2.0.4",
    "vue-socket.io": "^3.0.10",
 
+       "babel-loader": "^9.1.2",
+
+       lo cambie por este     "babel-loader": "^8.0.0",
+
+
 
 si es low cost va siempre a 8?
 
