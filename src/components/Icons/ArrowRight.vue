@@ -1,0 +1,17 @@
+<template>
+  <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1 7H14M9 1L14.2929 6.29289C14.6834 6.68342 14.6834 7.31658 14.2929 7.70711L9 13" :stroke="iconColor" stroke-width="2" stroke-linecap="round"/>
+  </svg>
+</template>
+
+<script>
+export default {
+  name: 'ArrowRightIcon',
+  props: {
+    iconColor: {
+      type: String,
+      default: '#926948'
+    }
+  }
+}
+</script>

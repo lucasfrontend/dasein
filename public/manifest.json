@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Virtual Manifest SkyBarrySystem",
+  "short_name": "SkyBarrySystem",
+  "description": "Sistema para la gestión de actividades de paracaidismo",
+  "icons": [
+    {
+      "src": "/img/icons/manijas.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icons/manijas.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icons/manijas.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FF69B4",
+  "theme_color": "#FF69B4",
+  "prefer_related_applications": false,
+  "scope": "./",
+  "shortcuts": [
+    {
+      "name": "Virtual Manifest SkyBarrySystem",
+      "short_name": "SkyBarrySystem",
+      "description": "Sistema para la gestión de actividades de paracaidismo",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/img/icons/manijas.png",
+          "sizes": "96x96" }
+        ]
+    }
+  ]
+}
