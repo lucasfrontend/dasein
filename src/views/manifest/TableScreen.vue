@@ -432,6 +432,7 @@ export default {
     },
 
   },
+  /*
   sockets: {
       connect: function () {
           console.log('socket connected')
@@ -440,6 +441,7 @@ export default {
           console.log('this method was fired by the socket server. eg: io.emit("customEmit")', data)
       }
   },
+  */
   methods: {
     updateStore(event) {
       console.log("tandsssssss")

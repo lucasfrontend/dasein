@@ -8,7 +8,7 @@ import store from "./store";
 //import * as VueGoogleMaps from "vue2-google-maps";
 import VueApexCharts from 'vue-apexcharts';
 //import i18n from "./i18n";
-import VueSocketIO from 'vue-socket.io';
+//import VueSocketIO from 'vue-socket.io';
 
 Vue.config.productionTip = false; //probando, cambiar a false antes de subir a produccion
 Vue.prototype.$http = axios;
@@ -57,7 +57,7 @@ moment.updateLocale("es", {
 });
 
 Vue.component('apexchart', VueApexCharts)
-
+/*
 Vue.use(new VueSocketIO({
   debug: true,
   connection: 'http://localhost:8082/api/tandas',
@@ -72,6 +72,7 @@ Vue.use(new VueSocketIO({
     path: "/api/tandas"
   }
 }))
+*/
 /*
 Vue.use(new VueSocketIO({
   debug: true,

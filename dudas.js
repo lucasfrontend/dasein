@@ -10,6 +10,7 @@ DEPENDENCIAS ELIMINADAS
  "vue2-google-maps": "^0.10.7"
   "vue2-dropzone": "^3.6.0",
   "vuetify-google-autocomplete": "^2.0.4",
+   "vue-socket.io": "^3.0.10",
 
 
 si es low cost va siempre a 8?
